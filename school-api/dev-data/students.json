@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1,
+        "name": "Auwal Isah ways",
+        "classID":  "617da0cbd3797d0b4c22db06",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Sani Musa",
+        "classID":  "617da0cbd3797d0b4c22db06",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Salisu lawal",
+        "classID":  "617da0cbd3797d0b4c22db06",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Aisha Sani",
+        "classID":"617da0cbd3797d0b4c22db07",
+        "gender": "Female",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Khadija Isah",
+        "classID":  "617da0cbd3797d0b4c22db06",
+        "gender": "Female",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Zidan Isah",
+        "classID":"617da0cbd3797d0b4c22db07",
+        "gender": "Male",
+        "guardian": {
+            "name": "Zidan's Guardian",
+            "relationship": "Uncle",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Mujitaba Musa",
+        "classID":"617da0cbd3797d0b4c22db07",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Musa",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Lawrence lawal",
+        "classID":"617da0cbd3797d0b4c22db07",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Lawrence",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Patience Sani",
+        "classID":"617da0cbd3797d0b4c22db07",
+        "gender": "Female",
+        "guardian": {
+            "name": "Guardian Patience",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Peace Isiah",
+        "classID":"617da0cbd3797d0b4c22db07",
+        "gender": "Female",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Bello Isah",
+       "classID": "617da0cbd3797d0b4c22db08",
+        "gender": "Male",
+        "guardian": {
+            "name": "Bello's Guardian",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Tanko Musa",
+       "classID": "617da0cbd3797d0b4c22db08",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Audi Shehu",
+       "classID": "617da0cbd3797d0b4c22db08",
+        "gender": "Male",
+        "guardian": {
+            "name": "Audi's Guardian",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Ladi Kwali",
+       "classID": "617da0cbd3797d0b4c22db08",
+        "gender": "Female",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Delu Isah",
+       "classID": "617da0cbd3797d0b4c22db08",
+        "gender": "Female",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Mamman Isah",
+        "classID":"617da0cbd3797d0b4c22db0a",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Abdul Nura",
+        "classID":"617da0cbd3797d0b4c22db0a",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Sample for Nura",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Taco lawal",
+        "classID":"617da0cbd3797d0b4c22db0a",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Zainab Sani",
+        "classID":"617da0cbd3797d0b4c22db0a",
+        "gender": "Female",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Rukayya Isiah",
+        "classID":"617da0cbd3797d0b4c22db0a",
+        "gender": "Female",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Kallamu Isah",
+        "classID": "617da0cbd3797d0b4c22db09",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Sample",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "id": 22,
+        "name": "Zidan Musa",
+        "classID":"617da0cbd3797d0b4c22db0a",
+        "gender": "Male",
+        "guardian": {
+            "name": "Guardian Zidan",
+            "relationship": "Father",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    },
+    {
+        "name": "Testing student",
+        "classID": "619e01f00ee0604228ac4ff4",
+        "gender": "Male",
+        "guardian": {
+            "name": "Adewale Oracle",
+            "relationship": "Mentor",
+            "phoneNo": "+23480123456789",
+            "email":"sampleEmail@school.api"
+        }
+    }
+]

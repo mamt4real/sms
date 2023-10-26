@@ -1,0 +1,180 @@
+.page.user {
+  padding: 20px;
+}
+
+.user__titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user__addButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-style: 16px;
+}
+
+.user__userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+.user__userContainer.classPage {
+  flex-direction: column;
+}
+.user__userContainer > div {
+  padding: 20px;
+  /* box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); */
+}
+.user__userShow {
+  flex: 2;
+}
+.user__userShow.classPage {
+  flex: 1.8;
+}
+.user__userUpdate {
+  flex: 1;
+  margin-left: 20px;
+}
+.user__userUpdate.classPage {
+  flex: 1;
+}
+
+.userShow__top {
+  display: flex;
+}
+.userShow__topTitle {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+.userShow__topTitle .username {
+  font-weight: 600;
+}
+.userShow__topTitle .jobtitle {
+  font-weight: 300;
+}
+.userShow__bottom {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.userShow__bottom.form {
+  margin-top: 5px;
+}
+
+.userShow__bottomGroup {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 10px;
+  padding: 8px;
+}
+.userShow__bottomGroup.addEditForm {
+  width: 380px;
+}
+
+.userShow__bottom .title,
+.studnetTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+.studnetTitle {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  display: block;
+}
+.displaySubjects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.displaySubjects > div {
+  width: 200px;
+}
+.userShow__bottom .userShow__info,
+.updateFee .userShow__info {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  color: #444;
+}
+.userShow__bottom .userShow__info > span,
+h4.infoTitle,
+.infoTitle {
+  flex: 1;
+}
+
+.userShow__bottom .userShow__info > span.key,
+.infoTitle.key {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-weight: 600;
+}
+.infoTitle.email {
+  font-size: 12px;
+  font-style: italic;
+}
+.userShow__icon {
+  font-style: 16px !important;
+  margin-right: 10px;
+}
+.user__userUpdate .userUpdate__title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+.form__item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.form__item > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.userUpdateText {
+  border: none;
+  width: 250px;
+  border-bottom: 1px solid gray;
+  height: 30px;
+}
+
+.userUpdate__formRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userUpdate__upload {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.userUpdate__formRight .userUpdate__icon {
+  cursor: pointer;
+}
+.userUpdate__formRight .userUpdate__button {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: #fff;
+  font-weight: bolder;
+}
+.userUpdate__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}

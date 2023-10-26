@@ -1,0 +1,32 @@
+.loading {
+  top: 8px;
+  left: 0;
+  bottom: 0;
+  /* z-index: 101; */
+  height: 100%;
+  width: calc(100% - 16px);
+  margin: 8px;
+  background-color: rgba(0, 255, 0, 0.08);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading span {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  border: 3px solid transparent;
+  border-top-color: #22b14c;
+  border-bottom-color: #22b14c;
+  border-radius: 50%;
+  animation: spin ease 1000ms infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateZ(360deg);
+  }
+}

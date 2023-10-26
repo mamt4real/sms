@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
+  display: flex;
+}
+
+.shadowed {
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.user__image {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.users__user {
+  display: flex;
+  align-items: center;
+}
+
+.form__title {
+  margin-bottom: 24px !important;
+  color: darkblue;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.formgroup__title {
+  padding-left: 8px;
+  font-weight: 600;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 8px !important;
+}
+.classform__subjects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: '400px';
+  margin-bottom: 5px;
+}
+.classform__subjects > *:first-child {
+  flex: 4.2;
+}
+.classform__subjects > *:last-child {
+  flex: 0.8;
+}
+table.teaching__subs {
+  border-collapse: collapse;
+  min-width: 410px;
+  color: #555;
+}
+table.scores_preview {
+  width: calc(100% - 8px);
+  margin: 24px 4px;
+}
+table.teaching__subs tr {
+  text-align: left;
+}
+table.teaching__subs th {
+  color: #555;
+}
+table.teaching__subs th,
+table.teaching__subs td {
+  padding-left: 2px;
+}
+table.teaching__subs .numbering {
+  padding-left: 0;
+  text-align: center;
+  width: 3em;
+}
+
+table.teaching__subs .class {
+  width: 7em;
+}
+
+table.teaching__subs .class.score {
+  text-align: center;
+}
+table.teaching__subs .class.amount {
+  text-align: right;
+  padding-right: 2px;
+}
+.modal_pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+}
+
+.form__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 8px;
+  z-index: 97;
+  display: flex;
+}
+.noscroller::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.noscroller {
+  -ms-overflow-style: none; /*IE and Edge */
+  scrollbar-width: none; /*Firefox */
+}
+
+.updateFee {
+  display: flex;
+}
+.updateFee > div {
+  flex: 1;
+}
+
+.actions.container {
+  display: flex;
+  justify-content: center;
+}
+
+.status-button {
+  font-size: 12px;
+  /* margin-right: 30px; */
+  align-items: center;
+  padding: 8px;
+  width: 100px;
+  border-radius: 10px;
+}
+.status-button::before {
+  content: 'ss';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.paid {
+  color: #33d69f;
+  background-color: rgba(51, 214, 160, 0.1);
+}
+.paid::before {
+  background-color: #33d69f;
+}
+
+.deposit {
+  color: #ff8f00;
+  background-color: rgba(255, 145, 0, 0.1);
+}
+.deposit::before {
+  background-color: #ff910050;
+}
+
+.not-paid {
+  color: #ff0000;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.not-paid::before {
+  background-color: #ff0000;
+}
+.payments {
+  padding: 16px;
+  margin-top: 8px;
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "subject": "Mathematics"
+    },
+    {
+        "id":2,
+        "subject": "English"
+    },
+    {
+        "id":3,
+        "subject": "Physics"
+    },
+    {
+        "id":4,
+        "subject": "Chemistry"
+    },
+    {
+        "id":5,
+        "subject": "Agricultural Science"
+    },
+    {
+        "id":6,
+        "subject": "Economics"
+    },
+    {
+        "id":7,
+        "subject": "Islamic Studies"
+    },
+    {
+        "id":8,
+        "subject": "Biology"
+    },
+    {
+        "id":9,
+        "subject": "Geography"
+    },
+    {
+        "id":8,
+        "subject": "Further Mathematics"
+    },
+    {
+        "id":9,
+        "subject": "Animal Husbandry"
+    }
+]

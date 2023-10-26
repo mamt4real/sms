@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            width: 80%;
+            height:2em;
+        }
+        form{
+            width:350px;
+            height: auto;
+            padding: 10px 10px;
+            border: solid 1px black;
+        }
+        form p{
+            width:100%;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" action="/api/v1/students/" id="add_student">
+        <p>Add Student</p>
+        <!--<label for="id">ID<input type="number" name="id" id="id"></label> onsubmit="affixID()" -->
+        <label for="name">Name: <input type="text" name="name" id="name"></label>
+        <label for="classID">Class
+        <select name="classID" id="classID" value="1">
+            <option value="1">JSS 1</option>
+            <option value="2">JSS 2</option>
+            <option value="3">JSS 3</option>
+            <option value="4">SS 1</option>
+        </select></label>
+        <label for="gender">Gender: <select name="gender" id="gender" value="Male">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select></label>
+        <label for=""><input type="submit" value="Submit" name="add_student"></label>
+    </form>
+
+    <script>
+        function affixID(){
+            const form = document.getElementsByTagName("form")[0];
+            const id = document.getElementById("id").value;
+            form.setAttribute("action",form.getAttribute("action") + "/" + id);
+            return true;
+        }
+    </script>
+</body>
+</html>

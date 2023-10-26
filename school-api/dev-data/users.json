@@ -1,0 +1,20 @@
+[
+  {
+    "image": "default.jpg",
+    "clearance": "admin",
+    "_id": "617ec8e8d2caaf33743589d0",
+    "name": "Mahadi Abuhuraira",
+    "username": "Mamt4real",
+    "email": "example@naij.com",
+    "__v": 0
+  },
+  {
+    "image": "default.jpg",
+    "clearance": "client",
+    "_id": "617ec8e8d2caaf33743589d1",
+    "name": "Dummy Value",
+    "username": "user1",
+    "email": "dummyval@example.com",
+    "__v": 0
+  }
+]
